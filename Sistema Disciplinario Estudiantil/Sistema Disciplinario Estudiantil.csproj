@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{C3AE3E48-7D43-4168-A14F-0C0C944916CE}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Sistema_Disciplinario_Estudiantil</RootNamespace>
+    <AssemblyName>Sistema Disciplinario Estudiantil</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="RegistroEstudiantil\Consulta.cs" />
+    <Compile Include="RegistroEstudiantil\Curso.cs" />
+    <Compile Include="RegistroEstudiantil\Docente.cs" />
+    <Compile Include="RegistroEstudiantil\Estudiante.cs" />
+    <Compile Include="RegistroEstudiantil\Falta_Diciplinaria.cs" />
+    <Compile Include="RegistroEstudiantil\Mensaje.cs" />
+    <Compile Include="RegistroEstudiantil\Notificacion.cs" />
+    <Compile Include="RegistroEstudiantil\Padre_Familia.cs" />
+    <Compile Include="RegistroEstudiantil\Persona.cs" />
+    <Compile Include="RegistroEstudiantil\Trabajador.cs" />
+    <Compile Include="IngresarComo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IngresarComo.Designer.cs">
+      <DependentUpon>IngresarComo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Paneles\PanelDocente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paneles\PanelDocente.Designer.cs">
+      <DependentUpon>PanelDocente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Paneles\PanelPadre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paneles\PanelPadre.Designer.cs">
+      <DependentUpon>PanelPadre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Paneles\Procesos Docente\NotificacionesEnviadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paneles\Procesos Docente\NotificacionesEnviadas.Designer.cs">
+      <DependentUpon>NotificacionesEnviadas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Paneles\Procesos Docente\RegistrarFalta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paneles\Procesos Docente\RegistrarFalta.Designer.cs">
+      <DependentUpon>RegistrarFalta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Paneles\Procesos Docente\RegistroFaltas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paneles\Procesos Docente\RegistroFaltas.Designer.cs">
+      <DependentUpon>RegistroFaltas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Registros\FormDocente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registros\FormDocente.Designer.cs">
+      <DependentUpon>FormDocente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registros\FormPadre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registros\FormPadre.Designer.cs">
+      <DependentUpon>FormPadre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Paneles\ProcesosPadre\Eventos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paneles\ProcesosPadre\Eventos.Designer.cs">
+      <DependentUpon>Eventos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Paneles\ProcesosPadre\ConsultaDocente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paneles\ProcesosPadre\ConsultaDocente.Designer.cs">
+      <DependentUpon>ConsultaDocente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Paneles\ProcesosPadre\Historial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paneles\ProcesosPadre\Historial.Designer.cs">
+      <DependentUpon>Historial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Paneles\ProcesosPadre\Notificaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paneles\ProcesosPadre\Notificaciones.Designer.cs">
+      <DependentUpon>Notificaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Paneles\ProcesosPadre\TableroPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Paneles\ProcesosPadre\TableroPrincipal.Designer.cs">
+      <DependentUpon>TableroPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ResourcesDesign\RJButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ResourcesDesign\RJButton.Designer.cs">
+      <DependentUpon>RJButton.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="IngresarComo.resx">
+      <DependentUpon>IngresarComo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paneles\PanelDocente.resx">
+      <DependentUpon>PanelDocente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paneles\PanelPadre.resx">
+      <DependentUpon>PanelPadre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paneles\Procesos Docente\NotificacionesEnviadas.resx">
+      <DependentUpon>NotificacionesEnviadas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paneles\Procesos Docente\RegistrarFalta.resx">
+      <DependentUpon>RegistrarFalta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paneles\Procesos Docente\RegistroFaltas.resx">
+      <DependentUpon>RegistroFaltas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registros\FormDocente.resx">
+      <DependentUpon>FormDocente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registros\FormPadre.resx">
+      <DependentUpon>FormPadre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paneles\ProcesosPadre\ConsultaDocente.resx">
+      <DependentUpon>ConsultaDocente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paneles\ProcesosPadre\Eventos.resx">
+      <DependentUpon>Eventos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paneles\ProcesosPadre\Historial.resx">
+      <DependentUpon>Historial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paneles\ProcesosPadre\Notificaciones.resx">
+      <DependentUpon>Notificaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paneles\ProcesosPadre\TableroPrincipal.resx">
+      <DependentUpon>TableroPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

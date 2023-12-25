@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.4
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema Disciplinario Estudiantil", "Sistema Disciplinario Estudiantil.csproj", "{C3AE3E48-7D43-4168-A14F-0C0C944916CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3AE3E48-7D43-4168-A14F-0C0C944916CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3AE3E48-7D43-4168-A14F-0C0C944916CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3AE3E48-7D43-4168-A14F-0C0C944916CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3AE3E48-7D43-4168-A14F-0C0C944916CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+C:\Users\Windows\Documents\SharpDevelop Projects\Sistema Disciplinario Estudiantil\Sistema Disciplinario Estudiantil\bin\Debug\Sistema Disciplinario Estudiantil.exe
+C:\Users\Windows\Documents\SharpDevelop Projects\Sistema Disciplinario Estudiantil\Sistema Disciplinario Estudiantil\bin\Debug\Sistema Disciplinario Estudiantil.pdb
+C:\Users\Windows\Documents\SharpDevelop Projects\Sistema Disciplinario Estudiantil\Sistema Disciplinario Estudiantil\obj\Debug\Sistema_Disciplinario_Estudiantil.MainForm.resources
+C:\Users\Windows\Documents\SharpDevelop Projects\Sistema Disciplinario Estudiantil\Sistema Disciplinario Estudiantil\obj\Debug\Sistema Disciplinario Estudiantil.csproj.GenerateResource.Cache
+C:\Users\Windows\Documents\SharpDevelop Projects\Sistema Disciplinario Estudiantil\Sistema Disciplinario Estudiantil\obj\Debug\Sistema Disciplinario Estudiantil.exe
+C:\Users\Windows\Documents\SharpDevelop Projects\Sistema Disciplinario Estudiantil\Sistema Disciplinario Estudiantil\obj\Debug\Sistema Disciplinario Estudiantil.pdb
+C:\Users\Windows\Documents\SharpDevelop Projects\Sistema Disciplinario Estudiantil\Sistema Disciplinario Estudiantil\obj\Debug\Sistema_Disciplinario_Estudiantil.IngresarComo.resources
+C:\Users\Windows\Documents\SharpDevelop Projects\Sistema Disciplinario Estudiantil\Sistema Disciplinario Estudiantil\obj\Debug\Sistema_Disciplinario_Estudiantil.Paneles.PanelDocente.resources
+C:\Users\Windows\Documents\SharpDevelop Projects\Sistema Disciplinario Estudiantil\Sistema Disciplinario Estudiantil\obj\Debug\Sistema_Disciplinario_Estudiantil.Paneles.PanelPadre.resources
+C:\Users\Windows\Documents\SharpDevelop Projects\Sistema Disciplinario Estudiantil\Sistema Disciplinario Estudiantil\obj\Debug\Sistema_Disciplinario_Estudiantil.Registros.FormDocente.resources
+C:\Users\Windows\Documents\SharpDevelop Projects\Sistema Disciplinario Estudiantil\Sistema Disciplinario Estudiantil\obj\Debug\Sistema_Disciplinario_Estudiantil.Registros.FormPadre.resources
+C:\Users\Windows\Documents\SharpDevelop Projects\Sistema Disciplinario Estudiantil\Sistema Disciplinario Estudiantil\obj\Debug\Sistema_Disciplinario_Estudiantil.Registros.ProcesosPadre.Historial.resources
+C:\Users\Windows\Documents\SharpDevelop Projects\Sistema Disciplinario Estudiantil\Sistema Disciplinario Estudiantil\obj\Debug\Sistema_Disciplinario_Estudiantil.Registros.ProcesosPadre.Notificaciones.resources
+C:\Users\Windows\Documents\SharpDevelop Projects\Sistema Disciplinario Estudiantil\Sistema Disciplinario Estudiantil\obj\Debug\Sistema_Disciplinario_Estudiantil.Registros.Procesos.TableroPrincipal.resources
+C:\Users\Windows\Documents\SharpDevelop Projects\Sistema Disciplinario Estudiantil\Sistema Disciplinario Estudiantil\obj\Debug\Sistema_Disciplinario_Estudiantil.Paneles.Procesos_Docente.NotificacionesEnviadas.resources
+C:\Users\Windows\Documents\SharpDevelop Projects\Sistema Disciplinario Estudiantil\Sistema Disciplinario Estudiantil\obj\Debug\Sistema_Disciplinario_Estudiantil.Paneles.Procesos_Docente.RegistrarFalta.resources
+C:\Users\Windows\Documents\SharpDevelop Projects\Sistema Disciplinario Estudiantil\Sistema Disciplinario Estudiantil\obj\Debug\Sistema_Disciplinario_Estudiantil.Paneles.Procesos_Docente.RegistroFaltas.resources
+C:\Users\Windows\Documents\SharpDevelop Projects\Sistema Disciplinario Estudiantil\Sistema Disciplinario Estudiantil\obj\Debug\Sistema_Disciplinario_Estudiantil.Registros.ProcesosPadre.ConsultaDocente.resources
+C:\Users\Windows\Documents\SharpDevelop Projects\Sistema Disciplinario Estudiantil\Sistema Disciplinario Estudiantil\obj\Debug\Sistema_Disciplinario_Estudiantil.Registros.ProcesosPadre.Calendario.resources
+C:\Users\Windows\Documents\SharpDevelop Projects\Sistema Disciplinario Estudiantil\Sistema Disciplinario Estudiantil\bin\Debug\Sistema Disciplinario Estudiantil.exe.config
+C:\Users\Windows\Documents\SharpDevelop Projects\Sistema Disciplinario Estudiantil\Sistema Disciplinario Estudiantil\obj\Debug\Sistema Disciplinario Estudiantil.csproj.AssemblyReference.cache
+C:\Users\Windows\Documents\SharpDevelop Projects\Sistema Disciplinario Estudiantil\Sistema Disciplinario Estudiantil\obj\Debug\Sistema Disciplinario Estudiantil.csproj.CoreCompileInputs.cache
